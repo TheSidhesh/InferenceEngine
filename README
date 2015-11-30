@@ -1,0 +1,30 @@
+		 INFERENCE ENGINE
+   -----------------------------
+
+What is it ?
+------------
+
+This is an AI Inference engine which will evaluate queries to tell whether they can be inferred from the given Knowledge Base. 
+
+Input -
+-------
+
+Input to the program is of the following format:
+
+2            		  - No. of queries
+Father(Bob) 		  - List of queries
+Son(John)
+2         	          - No. of statements in the Knowledge Base(rules and facts)
+Son(John)   		  - Fact format
+Son(x) => Father(x)   - Rule format
+
+
+Output - 
+---------
+
+This program will tell us which of the queries can be inferred from the given Knowledge Base by either returning TRUE or FALSE value.
+----------------
+
+Language Used - Java
+
+	
